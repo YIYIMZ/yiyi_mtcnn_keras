@@ -1,0 +1,2 @@
+# yiyi_mtcnn_keras
+MTCNN提出了一种Multi-task的人脸检测框架，将人脸检测和人脸特征点检测同时进行。提出一个新的基于CNN的级联型框架，用于联和（joint）人脸检测和对齐；还设计轻量级的CNN架构使得速度上可以达到实时；提出一个有效的online hard sample mining方法来提高表现能力；在人脸检测和人脸对齐上提高了不少精度。论文原文采用caffe实现，本项目用keras/tensorflow+python实现。
